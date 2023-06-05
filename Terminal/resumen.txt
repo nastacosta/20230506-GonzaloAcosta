@@ -1,0 +1,5 @@
+git branch
+git log
+git remote add
+git clone
+nano
