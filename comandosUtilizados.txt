@@ -1,0 +1,23 @@
+  353  git init
+  354  git remote add origin https://github.com/nastacosta/20230506-GonzaloAcosta.git
+  355  touch comandos.txt main.js index.html
+  356  git add .
+  357  git commit -m "commit 01 de GonzaloAcosta"
+  358  git push origin main
+  359  git checkout -b feature01
+  360  mkdir Terminal Hardware
+  361  touch Hardware/resumen.txt Terminal/resumen.txt
+  362  git add .
+  363  git commit -m "commit 02 de GonzaloAcosta"
+  364  git push origin feature01 
+  365  git checkout -b feature02
+  366  nano Terminal/resumen.txt 
+  367  nano Hardware/resumen.txt 
+  368  git add .
+  369  git commit -m "commit 03 de GonzaloAcosta"
+  370  git push origin feature02
+  371  git branch main 
+  372  git checkout main 
+  373  mv comandos.txt comandosUtilizados.txt
+  374  history > comandosUtilizados.txt 
+  375  history 23 > comandosUtilizados.txt 
